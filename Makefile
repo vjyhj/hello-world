@@ -2,6 +2,8 @@
 CC=gcc
 all:eight
 
+#more comments
+
 %.o:%.c
 		$(CC) -c -o $@ $<
 	
